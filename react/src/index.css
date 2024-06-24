@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background-color: #FFFBF5B2;
+    font-family: font;
+    margin: 0 auto;
+    overflow-x: hidden;
+    user-select: none;
+}
+/* *{
+    max-width: 1700px !important;
+} */
+@font-face {
+    font-family: font;
+    src: url(./assets/fonts/ChakraPetch-Medium.ttf);
+}
