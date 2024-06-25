@@ -16,3 +16,11 @@ body{
     font-family: font;
     src: url(./assets/fonts/ChakraPetch-Medium.ttf);
 }
+
+.swiper-scrollbar {
+    background: #fff; /* Background of the scrollbar track */
+  }
+  
+  .swiper-scrollbar-drag {
+    background: #CA05D1; /* Color of the scrollbar thumb */
+  }
