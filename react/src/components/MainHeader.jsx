@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
+import HeaderMiniSvg from "../../public/Svg/HeaderMiniSvg";
 
-const MainHeader = () => {
+const MainHeader = ({ rotation }) => {
   const [image1, setImage1] = useState("/Ellipse 10.png");
   const [image2, setImage2] = useState("/Ellipse 11.png");
   const [image3, setImage3] = useState("/Ellipse 12.png");
@@ -26,7 +27,6 @@ const MainHeader = () => {
 
     window.addEventListener("resize", handleResize);
 
-    // Initial check
     handleResize();
 
     return () => {
@@ -49,12 +49,6 @@ const MainHeader = () => {
           src={image2}
           alt=""
         />
-
-        {/* <img
-          className=" md:h-full  md:bottom-[-100px] right-0 w-full md:w-auto border  border-red-500 "
-          src={image3}
-          alt=""
-        /> */}
         <img
           className="  md:h-full md:right-0  w-full md:w-auto absolute right-0 md:top-0  h-[600px] "
           src={image4}
@@ -64,7 +58,10 @@ const MainHeader = () => {
           <img className=" mt-32" src={image5} alt="" />
         </div>
         <div className=" absolute top-0  right-0 h-full w-full   max-w-[1700px] flex lg:flex-row md:flex-col justify-between  items-center    md:px-20   ">
-          <div className="w-full h-full flex flex-col justify-start lg:justify-center  pt-28 lg:pt-0 items-center px-10 lg:px-0  md:w-[600px] lg:w-[500px] xl:w-2/6 ">
+          <div className=" border relative w-full h-full flex flex-col justify-start lg:justify-center  pt-28 lg:pt-0 items-center px-10 lg:px-0  md:w-[600px] lg:w-[500px] xl:w-2/6 ">
+            <div className=" absolute top-[12%] left-[40px] h-[30px] w-[30px] md:h-[40px] md:w-[40px] md:top-[15%] lg:top-[25%] lg:left-0">
+              <HeaderMiniSvg rotation={rotation} />
+            </div>
             <h1 className=" text-5xl xl:text-[57px] text-center font-extrabold leading-[60px]">
               Welcome To The World Of
               <span className=" text-hohoColor"> HOHO</span>

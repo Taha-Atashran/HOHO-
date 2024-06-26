@@ -7,7 +7,7 @@ const OurVision = ({ rotation }) => {
     <>
       <div className=" container  h-[500px] mt-[100px]  xl:px-40 md-px-20 px-5 flex flex-col ">
         <div className=" h-1/3 flex justify-between">
-          <div className=" lg:w-[253px] lg:h-[125px] w-[148px] h-[94px] md:w-[200px] md:h-[150px] sm:w-[170px] sm:h-[120px]  relative ">
+          <div className=" lg:w-[253px] lg:h-[125px] w-[158px] h-[104px] md:w-[200px] md:h-[150px] sm:w-[180px] sm:h-[130px]  relative ">
             <div className=" absolute top-[30%] right-[35%] md:right-[40%] lg:right-[45%] md:top-[35%] lg:top-[30%]">
               <OrangeSvg rotation={rotation} />
             </div>

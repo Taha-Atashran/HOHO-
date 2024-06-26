@@ -1,4 +1,4 @@
-const GreenMini = () => {
+const GreenMini = ({ rotation }) => {
   return (
     <>
       <svg
@@ -7,6 +7,7 @@ const GreenMini = () => {
         height="20"
         viewBox="0 0 19 20"
         fill="none"
+        style={{ transform: `rotate(${rotation}deg)` }}
       >
         <circle opacity="0.5" cx="9" cy="11" r="9" fill="#0F9918" />
         <circle

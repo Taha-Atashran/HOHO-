@@ -7,6 +7,9 @@ import Our from "../components/Our";
 import { useEffect, useState } from "react";
 import Streams from "../components/Streams";
 import Slider from "../components/Slider";
+import HohoWallet from "../components/HohoWallet";
+import Games from "../components/Games";
+import Testi from "../components/GameSlider";
 
 const Landing = () => {
   const [rotation, setRotation] = useState(0);
@@ -28,11 +31,13 @@ const Landing = () => {
     <>
       <HeaderDesc />
       <HeaderMobile />
-      <MainHeader />
+      <MainHeader rotation={rotation} />
       <OurVision rotation={rotation} />
       <NetWork rotation={rotation} />
       <Our />
-      <Streams />
+      <Streams rotation={rotation} />
+      <HohoWallet rotation={rotation} />
+      <Games rotation={rotation} />
     </>
   );
 };

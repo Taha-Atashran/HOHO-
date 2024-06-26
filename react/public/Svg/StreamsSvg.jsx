@@ -1,4 +1,3 @@
-
 const StreamsSvg = () => {
   return (
     <>
@@ -9,13 +8,7 @@ const StreamsSvg = () => {
         viewBox="0 0 380 136"
         fill="none"
       >
-        <circle
-          cx="151.5"
-          cy="39.5"
-          r="8.5"
-          fill="#FF8800"
-          fillOpacity="0.5"
-        />
+        <circle cx="151.5" cy="39.5" r="8.5" fill="#FF8800" fillOpacity="0.5" />
         <circle
           cx="235.5"
           cy="112.5"
@@ -27,32 +20,6 @@ const StreamsSvg = () => {
         <circle cx="365" cy="47" r="7" fill="#0F9918" fillOpacity="0.5" />
         <circle cx="25" cy="44" r="13" fill="#0F9918" fillOpacity="0.5" />
         <circle cx="200" cy="101" r="7" fill="#0F9918" fillOpacity="0.5" />
-        <circle opacity="0.5" cx="356" cy="109" r="9" fill="#0F9918" />
-        <circle
-          cx="361.5"
-          cy="102.5"
-          r="4"
-          fill="#FF8800"
-          fillOpacity="0.5"
-          stroke="#FFFBF5"
-        />
-        <circle
-          cx="11"
-          cy="10"
-          r="9"
-          transform="rotate(-90 11 10)"
-          fill="#00D4FC"
-          fillOpacity="0.5"
-        />
-        <circle
-          cx="4.5"
-          cy="4.5"
-          r="4"
-          transform="rotate(-90 4.5 4.5)"
-          fill="#CA05D1"
-          fillOpacity="0.5"
-          stroke="#FFFBF5"
-        />
         <ellipse
           cx="189"
           cy="48.5"
