@@ -10,6 +10,8 @@ import Slider from "../components/Slider";
 import HohoWallet from "../components/HohoWallet";
 import Games from "../components/Games";
 import Testi from "../components/GameSlider";
+import Founders from "../components/Founders";
+import FeedBack from "../components/FeedBack";
 
 const Landing = () => {
   const [rotation, setRotation] = useState(0);
@@ -38,6 +40,8 @@ const Landing = () => {
       <Streams rotation={rotation} />
       <HohoWallet rotation={rotation} />
       <Games rotation={rotation} />
+      <Founders rotation={rotation} />
+      <FeedBack />
     </>
   );
 };

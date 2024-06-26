@@ -58,7 +58,7 @@ const MainHeader = ({ rotation }) => {
           <img className=" mt-32" src={image5} alt="" />
         </div>
         <div className=" absolute top-0  right-0 h-full w-full   max-w-[1700px] flex lg:flex-row md:flex-col justify-between  items-center    md:px-20   ">
-          <div className=" border relative w-full h-full flex flex-col justify-start lg:justify-center  pt-28 lg:pt-0 items-center px-10 lg:px-0  md:w-[600px] lg:w-[500px] xl:w-2/6 ">
+          <div className="  relative w-full h-full flex flex-col justify-start lg:justify-center  pt-28 lg:pt-0 items-center px-10 lg:px-0  md:w-[600px] lg:w-[500px] xl:w-2/6 ">
             <div className=" absolute top-[12%] left-[40px] h-[30px] w-[30px] md:h-[40px] md:w-[40px] md:top-[15%] lg:top-[25%] lg:left-0">
               <HeaderMiniSvg rotation={rotation} />
             </div>

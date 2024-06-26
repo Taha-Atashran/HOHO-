@@ -26,3 +26,14 @@ body{
   }
 
 
+
+/* src/components/VerticalSlider.css */
+
+/* src/components/VerticalSlider.css */
+
+.custom-scrollbar {
+    background: #e4e4e4;
+    z-index: 10;
+    margin-right: 97%;
+}
+
