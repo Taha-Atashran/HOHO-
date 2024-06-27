@@ -15,13 +15,14 @@ import FeedBack from "../components/FeedBack";
 import Footer from "../components/Footer";
 
 const Landing = () => {
-  const [rotation, setRotation] = useState(0);
+  const [scrollRotation, setScrollRotation] = useState(0);
+  const [mouseRotation, setMouseRotation] = useState(0);
 
   useEffect(() => {
     const handleScroll = () => {
       const scrollY = window.scrollY;
-      const rotationDegree = scrollY % 360; // Adjust the rotation degree based on scroll position
-      setRotation(rotationDegree);
+      const rotationDegree = scrollY % 360; 
+      setScrollRotation(rotationDegree);
     };
 
     window.addEventListener("scroll", handleScroll);
@@ -30,21 +31,30 @@ const Landing = () => {
     };
   }, []);
 
+  const handleMouseMove = (event) => {
+    const { clientX, clientY } = event;
+    const centerX = window.innerWidth / 2;
+    const centerY = window.innerHeight / 2;
+    const radians = Math.atan2(clientY - centerY, clientX - centerX);
+    const degrees = radians * (180 / Math.PI);
+    setMouseRotation(degrees);
+  };
+
   return (
-    <>
+    <div onMouseMove={handleMouseMove}>
       <HeaderDesc />
       <HeaderMobile />
-      <MainHeader rotation={rotation} />
-      <OurVision rotation={rotation} />
-      <NetWork rotation={rotation} />
+      <MainHeader rotation={scrollRotation + mouseRotation} />
+      <OurVision rotation={scrollRotation + mouseRotation} />
+      <NetWork rotation={scrollRotation + mouseRotation} />
       <Our />
-      <Streams rotation={rotation} />
-      <HohoWallet rotation={rotation} />
-      <Games rotation={rotation} />
-      <Founders rotation={rotation} />
-      <FeedBack rotation={rotation} />
+      <Streams rotation={scrollRotation + mouseRotation} />
+      <HohoWallet rotation={scrollRotation + mouseRotation} />
+      <Games rotation={scrollRotation + mouseRotation} />
+      <Founders rotation={scrollRotation + mouseRotation} />
+      <FeedBack rotation={scrollRotation + mouseRotation} />
       <Footer />
-    </>
+    </div>
   );
 };
 

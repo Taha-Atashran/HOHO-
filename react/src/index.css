@@ -27,9 +27,6 @@ body{
 
 
 
-/* src/components/VerticalSlider.css */
-
-/* src/components/VerticalSlider.css */
 
 .custom-scrollbar {
     background: #e4e4e4;
@@ -37,3 +34,13 @@ body{
     margin-right: 97%;
 }
 
+
+::-webkit-scrollbar {
+    width:7px;
+    background-color:#fff;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #ccc;
+    border-radius: 10px;
+}

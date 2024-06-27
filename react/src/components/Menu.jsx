@@ -33,7 +33,7 @@ const Menu = ({ menu, menuHandler, setMenu }) => {
         >
           <div className="w-full flex justify-end h-10  items-center">
             <IoClose
-              className=" text-2xl text-routerColor mr-2"
+              className=" text-3xl mt-1 text-routerColor mr-2"
               onClick={menuHandler}
             />
           </div>

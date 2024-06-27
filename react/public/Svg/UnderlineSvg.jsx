@@ -10,7 +10,7 @@ const UnderlineSvg = () => {
         viewBox="0 0 13 3"
         fill="none"
       >
-        <path d="M0 1.5H13" stroke="#77037B" stroke-width="3" />
+        <path d="M0 1.5H13" stroke="#77037B" strokeWidth="3" />
       </svg>
     </>
   );

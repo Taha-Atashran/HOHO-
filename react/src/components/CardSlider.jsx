@@ -25,7 +25,7 @@ const CardSlider = ({ price, title, image, view, date }) => {
             <output className="ml-[1px] transform translate-y-[1px]">{view}</output>
           </div>
           <div className="">
-            <output className="text-xs text-dateColor  ">{date}</output>
+            <output className="text-xs text-dateColor">{date}</output>
           </div>
         </div>
       </div>

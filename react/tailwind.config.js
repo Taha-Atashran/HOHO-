@@ -26,6 +26,10 @@ export default {
         hohoTextColor: "#585555",
         hoverBtn: "rgba(119, 3, 123, 0.1)",
         hoverDarkBtn: "rgba(119, 3, 123, 0.5)",
+        founderColor: "#FFFBF5",
+      },
+      screens: {
+        fouter: "800px",
       },
     },
   },

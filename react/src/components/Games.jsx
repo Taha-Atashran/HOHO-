@@ -5,33 +5,6 @@ import BlueMini from "../../public/Svg/BlueMini";
 import PinkMini from "../../public/Svg/PinkMini";
 
 const Games = ({ rotation }) => {
-  const [image1, setImage1] = useState("/secondPink.png");
-  const [image2, setImage2] = useState("/secondGreen.png");
-  const [image3, setImage3] = useState("/secondBlue.png");
-
-  useEffect(() => {
-    const handleResize = () => {
-      if (window.innerWidth < 1024) {
-        setImage1("/mobilePink.png");
-        setImage2("/mobileGreen.png");
-        setImage3("/mobileBlue.png");
-      } else {
-        setImage1("/secondPink.png");
-        setImage2("/secondGreen.png");
-        setImage3("/secondBlue.png");
-      }
-    };
-
-    window.addEventListener("resize", handleResize);
-
-    // Initial check
-    handleResize();
-
-    return () => {
-      window.removeEventListener("resize", handleResize);
-    };
-  }, []);
-
   return (
     <>
       <div className="w-full  lg:flex lg:mt-[50px] mt-[-100px] max-w-[1700px] mx-auto relative">
@@ -52,18 +25,35 @@ const Games = ({ rotation }) => {
           </div>
         </div>
         <img
-          className="w-full h-[300px] scale-y-[1.3] lg:scale-1 lg:w-[40%] lg:h-auto"
-          src={image1}
+          className="w-full h-[300px] scale-y-[1.3] lg:scale-1 lg:w-[40%] lg:h-auto lg:hidden"
+          src="/mobilePink.png"
           alt=""
         />
         <img
-          className="w-full h-[300px] transform scale-y-[1.5] lg:scale-1 lg:w-[20%] lg:h-auto"
-          src={image2}
+          className="w-full h-[300px] scale-y-[1.3] lg:scale-1 lg:w-[40%] lg:h-auto hidden lg:block"
+          src="/secondPink.png"
+          alt=""
+        />
+
+        <img
+          className="w-full h-[300px] transform scale-y-[1.5] lg:scale-1 lg:w-[20%] lg:h-auto lg:hidden"
+          src="/mobileGreen.png"
           alt=""
         />
         <img
-          className="w-full h-[300px]  transform scale-y-[1.2] lg:scale-1 lg:w-[40%] lg:h-auto"
-          src={image3}
+          className="w-full h-[300px] transform scale-y-[1.5] lg:scale-1 lg:w-[20%] lg:h-auto hidden lg:block"
+          src="/secondGreen.png"
+          alt=""
+        />
+
+        <img
+          className="w-full h-[300px]  transform scale-y-[1.2] lg:scale-1 lg:w-[40%] lg:h-auto lg:hidden"
+          src="/mobileBlue.png"
+          alt=""
+        />
+        <img
+          className="w-full h-[300px]  transform scale-y-[1.2] lg:scale-1 lg:w-[40%] lg:h-auto hidden lg:block"
+          src="/secondBlue.png"
           alt=""
         />
       </div>

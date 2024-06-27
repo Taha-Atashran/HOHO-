@@ -10,7 +10,7 @@ export const LogoSvg = () => {
         viewBox="0 0 53 53"
         fill="none"
       >
-        <g clip-path="url(#clip0_1_1121)">
+        <g clipPath="url(#clip0_1_1121)">
           <path
             d="M53 21.2939V23.5251H0V21.2939H12.0455V0H40.9545V21.2939H53Z"
             fill="url(#paint0_linear_1_1121)"

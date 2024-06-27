@@ -32,33 +32,43 @@ const Streams = ({ rotation }) => {
               ever since the 1500s.
             </p>
             <div className="flex mt-4">
-              <Asvg />
+              <div>
+                <Asvg />
+              </div>
               <p className="pl-2 ">
                 Lorem Ipsum is simply dummy text of the printing and{" "}
               </p>
             </div>
             <div className="flex mt-4">
-              <Bsvg />
+              <div>
+                <Bsvg />
+              </div>
               <p className="pl-2 ">
                 {" "}
                 Lorem Ipsum has been the industry's standard dummy text{" "}
               </p>
             </div>
             <div className="flex mt-4">
-              <Csvg />
+              <div>
+                <Csvg />
+              </div>
               <p className="pl-2 ">
                 when an unknown printer took a galley of type
               </p>
             </div>
             <div className="flex mt-4">
-              <Dsvg />
+              <div>
+                <Dsvg />
+              </div>
               <p className="pl-2 ">
                 {" "}
                 and scrambled it to make a type specimen book
               </p>
             </div>
             <div className="flex mt-4">
-              <Esvg />
+              <div>
+                <Esvg />
+              </div>
               <p className="pl-2 ">when an unknown printer took a galley.</p>
             </div>
           </div>

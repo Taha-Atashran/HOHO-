@@ -26,7 +26,7 @@ const MobileSvg = () => {
         transform="matrix(0.993783 -0.111338 0.111727 0.993739 6.321 25.5889)"
         stroke="#999393"
         stroke-opacity="0.5"
-        stroke-width="7"
+        strokeWidth="7"
       />
       <rect
         width="179.984"
@@ -44,7 +44,7 @@ const MobileSvg = () => {
         transform="matrix(0.993579 0.113143 -0.113538 0.993534 238.712 45.0029)"
         stroke="#999393"
         stroke-opacity="0.5"
-        stroke-width="7"
+        strokeWidth="7"
       />
       <g opacity="0.26" filter="url(#filter0_f_1_619)">
         <ellipse cx="212" cy="464.988" rx="125.5" ry="8" fill="#999393" />

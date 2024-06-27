@@ -1,68 +1,56 @@
 import React, { useEffect, useState } from "react";
 import HeaderMiniSvg from "../../public/Svg/HeaderMiniSvg";
+import GreenBlueSvg from "../../public/Svg/GreenBlueSvg";
 
 const MainHeader = ({ rotation }) => {
-  const [image1, setImage1] = useState("/Ellipse 10.png");
-  const [image2, setImage2] = useState("/Ellipse 11.png");
-  const [image3, setImage3] = useState("/Ellipse 12.png");
-  const [image4, setImage4] = useState("/Ellipse 9.png");
-  const [image5, setImage5] = useState("/Ellipse 9.png");
-
-  useEffect(() => {
-    const handleResize = () => {
-      if (window.innerWidth < 768) {
-        setImage1("/image1.png");
-        setImage2("/image2.png");
-        setImage3("/image3.png");
-        setImage4("/image4.png");
-        setImage5("/mobile vector.png");
-      } else {
-        setImage1("/Ellipse 10.png");
-        setImage2("/Ellipse 11.png");
-        setImage3("/Ellipse 12.png");
-        setImage4("/Ellipse 9.png");
-        setImage5("/Vector 2.png");
-      }
-    };
-
-    window.addEventListener("resize", handleResize);
-
-    handleResize();
-
-    return () => {
-      window.removeEventListener("resize", handleResize);
-    };
-  }, []);
-
   return (
     <div className="">
       <div
         className={`  lg:h-[700px]  h-[700px]  w-[100%]  md:justify-center md:flex flex-col md:flex-row   relative   max-w-[1700px] mx-auto `}
       >
         <img
-          className="   md:h-full md:left-0 md:w-auto w-full  top-0  md:top-auto h-[300px] md:absolute "
-          src={image1}
+          className="   md:h-full md:left-0 md:w-auto w-full  top-0  md:top-auto h-[300px] md:absolute block md:hidden"
+          src="/image1.png"
           alt=""
         />
         <img
-          className="  md:h-full md:right-[10%]  right-0  md:w-auto w-full h-[400px] md:static absolute top-[70px]"
-          src={image2}
+          className="   md:h-full md:left-0 md:w-auto w-full  top-0  md:top-auto h-[300px] md:absolute  hidden md:block"
+          src="/Ellipse 10.png"
+          alt=""
+        />
+
+        <img
+          className="  md:h-full md:right-[10%]  right-0  md:w-auto w-full h-[400px] md:static absolute top-[70px] md:hidden"
+          src="/image2.png"
           alt=""
         />
         <img
-          className="  md:h-full md:right-0  w-full md:w-auto absolute right-0 md:top-0  h-[600px] "
-          src={image4}
+          className="  md:h-full md:right-[10%]  right-0  md:w-auto w-full h-[400px] md:static absolute top-[70px] hidden md:block"
+          src="/Ellipse 11.png"
           alt=""
         />
+
+        <img
+          className="  md:h-full md:right-0  w-full md:w-auto absolute right-0 md:top-0  h-[600px] md:hidden "
+          src="/image4.png"
+          alt=""
+        />
+        <img
+          className="  md:h-full md:right-0  w-full md:w-auto absolute right-0 md:top-0  h-[600px] hidden  md:block "
+          src="/Ellipse 9.png"
+          alt=""
+        />
+
         <div className=" absolute   h-[100%] w-[100%] flex  items-start justify-center  max-w-[1700px] mx-auto  overflow-hidden top-0 right   ">
-          <img className=" mt-32" src={image5} alt="" />
+          <img className=" mt-32 md:hidden" src="/mobile vector.png" alt="" />
+          <img className=" mt-32 hidden md:block" src="/Vector 2.png" alt="" />
         </div>
         <div className=" absolute top-0  right-0 h-full w-full   max-w-[1700px] flex lg:flex-row md:flex-col justify-between  items-center    md:px-20   ">
           <div className="  relative w-full h-full flex flex-col justify-start lg:justify-center  pt-28 lg:pt-0 items-center px-10 lg:px-0  md:w-[600px] lg:w-[500px] xl:w-2/6 ">
             <div className=" absolute top-[12%] left-[40px] h-[30px] w-[30px] md:h-[40px] md:w-[40px] md:top-[15%] lg:top-[25%] lg:left-0">
               <HeaderMiniSvg rotation={rotation} />
             </div>
-            <h1 className=" text-5xl xl:text-[57px] text-center font-extrabold leading-[60px]">
+            <h1 className=" text-5xl xl:text-[57px] text-center font-extrabold leading-[60px] pt-10 md:pt-0">
               Welcome To The World Of
               <span className=" text-hohoColor"> HOHO</span>
             </h1>
@@ -86,20 +74,15 @@ const MainHeader = ({ rotation }) => {
               style={{ boxShadow: "rgba(149, 157, 165, 0.2) 0px 8px 24px" }}
               className=" absolute h-[35px] w-[250px] rounded-xl flex justify-center items-center bg-hohoDivColor"
             >
-              <img
-                className="mr-1 h-[18px] w-[16px]"
-                src="/Group 46.png"
-                alt=""
-              />
-              <output className="text-textColor text-[15px]">
-                {" "}
-                1 HoHo=0.006 USD{" "}
+              <output className="text-textColor text-[15px] relative">
+                1 HoHo=0.006 USD
+                <div className=" absolute left-[-20px] top-[2px]">
+                  <GreenBlueSvg rotation={rotation} />
+                </div>
+                <div className=" absolute right-[-22px] top-[2px]">
+                  <GreenBlueSvg rotation={rotation} />
+                </div>
               </output>
-              <img
-                className="ml-1 h-[18px] w-[16px]"
-                src="/Group 45.png"
-                alt=""
-              />
             </div>
           </div>
         </div>
