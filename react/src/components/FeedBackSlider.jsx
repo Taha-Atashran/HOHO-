@@ -53,7 +53,7 @@ const VerticalSlider = () => {
   };
 
   return (
-    <div className="slider-container w-full  mx-auto relative h-[850px] md:h-[350px] lg:h-[500px] ">
+    <div className="slider-container w-full  mx-auto relative h-[850px] md:h-[380px] lg:h-[500px] ">
       <div className=" h-full overflow-hidden pl-5 relative ">
         <Swiper
           direction="vertical"
@@ -69,7 +69,7 @@ const VerticalSlider = () => {
               slidesPerView: 3,
             },
             768: {
-              slidesPerView: 1,
+              slidesPerView: 1.5,
             },
             1024: {
               slidesPerView: 3,

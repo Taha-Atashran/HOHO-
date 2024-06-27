@@ -6,7 +6,7 @@ import YellowSvg from "../../public/Svg/YellowSvg";
 const NetWork = ({ rotation }) => {
   return (
     <>
-      <div className=" relative container h-[550px] md:h-[445px] lg:h-[302px] mx-auto">
+      <div className=" relative container h-[550px] md:h-[445px] lg:h-[302px] mx-auto sm:mt-[-70px]">
         <div className="md:w-[380px] md:h-[119px] w-[263px] h-[94px] lg:absolute lg:right-[20px] xl:static xl:mx-auto mx-auto relative  ">
           <div className=" absolute  top-[23%] right-[19%] md:right-[25%] xl:right-[42%] xl:top-[11%] 2xl:right-[43%] ">
             <BlueMini rotation={rotation} />

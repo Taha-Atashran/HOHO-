@@ -12,6 +12,7 @@ import Games from "../components/Games";
 import Testi from "../components/GameSlider";
 import Founders from "../components/Founders";
 import FeedBack from "../components/FeedBack";
+import Footer from "../components/Footer";
 
 const Landing = () => {
   const [rotation, setRotation] = useState(0);
@@ -41,7 +42,8 @@ const Landing = () => {
       <HohoWallet rotation={rotation} />
       <Games rotation={rotation} />
       <Founders rotation={rotation} />
-      <FeedBack />
+      <FeedBack rotation={rotation} />
+      <Footer />
     </>
   );
 };

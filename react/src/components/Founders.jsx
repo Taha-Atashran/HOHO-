@@ -49,7 +49,7 @@ const Founders = ({ rotation }) => {
           </div>
           <div className="">
             <div className=" flex flex-col md:flex-row md:justify-between">
-              <img className="w-[231px] h-[231px]" src="/Group 61.png" alt="" />
+              <img className="w-[221px] h-[231px] " src="/Group 61.png" alt="" />
               <div className=" w-full  flex justify-end md:block md:w-auto">
                 <img
                   className="w-[240px] h-[231px] mt-7"
@@ -60,7 +60,7 @@ const Founders = ({ rotation }) => {
             </div>
             <div className=" flex flex-col md:flex-row md:justify-around">
               <img
-                className="w-[241px] h-[231px] mt-7"
+                className="w-[251px] h-[231px] mt-7"
                 src="/Group 63.png"
                 alt=""
               />
