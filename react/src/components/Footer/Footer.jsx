@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import { LogoSvg } from "../../public/Svg/LogoSvg";
-import OrangeDots from "../../public/Svg/OrangeDots";
-import CopySvg from "../../public/Svg/CopySvg";
+import { LogoSvg } from "../../../public/Svg/LogoSvg";
+import OrangeDots from "../../../public/Svg/OrangeDots";
+import CopySvg from "../../../public/Svg/CopySvg";
 
 const Footer = () => {
   const [inputValue1, setInputValue1] = useState(
@@ -105,24 +105,24 @@ const Footer = () => {
             <div className=" flex flex-col md:flex-row md:w-full md:justify-around lg:items-center lg:mt-5 lg:justify-end">
               <img
                 className="w-[138px] h-[28px] mt-6 lg:mt-0 lg:mr-5"
-                src="/footer1.png"
+                src="/Images/footer1.png"
                 alt=""
               />
               <img
                 className="w-[137px] h-[21px] mt-6 lg:mt-0 lg:mr-5"
-                src="/footer2.png"
+                src="/Images/footer2.png"
                 alt=""
               />
             </div>
             <div className=" flex flex-col md:flex-row md:w-full md:justify-around lg:items-center lg:mt-5 lg:justify-start">
               <img
                 className="w-[151px] h-[26px] mt-6 lg:mt-0 lg:mr-5"
-                src="/footer33.png"
+                src="/Images/footer33.png"
                 alt=""
               />
               <img
                 className="w-[146px] h-[15px] mt-6 lg:mt-0 lg:mr-5"
-                src="/footer4.png"
+                src="/Images/footer4.png"
                 alt=""
               />
             </div>

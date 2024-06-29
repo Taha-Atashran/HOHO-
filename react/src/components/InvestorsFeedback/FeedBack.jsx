@@ -1,9 +1,9 @@
 import React from "react";
 import VerticalSlider from "./FeedBackSlider";
-import FeedBackSvg from "../../public/Svg/FeedBackSvg";
-import BlueMini from "../../public/Svg/BlueMini";
-import OrangeSvg from "../../public/Svg/OrangeSvg";
-import YellowSvg from "../../public/Svg/YellowSvg";
+import FeedBackSvg from "../../../public/Svg/FeedBackSvg";
+import BlueMini from "../../../public/Svg/BlueMini";
+import OrangeSvg from "../../../public/Svg/OrangeSvg";
+import YellowSvg from "../../../public/Svg/YellowSvg";
 
 const FeedBack = ({ rotation }) => {
   return (

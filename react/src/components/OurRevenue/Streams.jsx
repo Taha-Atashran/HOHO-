@@ -1,13 +1,13 @@
 import React from "react";
-import StreamsSvg from "../../public/Svg/StreamsSvg";
-import Asvg from "../../public/Svg/Asvg";
-import Bsvg from "../../public/Svg/Bsvg";
-import Csvg from "../../public/Svg/Csvg";
-import Dsvg from "../../public/Svg/Dsvg";
-import Esvg from "../../public/Svg/Esvg";
-import UnderlineSvg from "../../public/Svg/UnderlineSvg";
-import BlueMini from "../../public/Svg/BlueMini";
-import GreenMini from "../../public/Svg/GreenMini";
+import StreamsSvg from "../../../public/Svg/StreamsSvg";
+import Asvg from "../../../public/Svg/Asvg";
+import Bsvg from "../../../public/Svg/Bsvg";
+import Csvg from "../../../public/Svg/Csvg";
+import Dsvg from "../../../public/Svg/Dsvg";
+import Esvg from "../../../public/Svg/Esvg";
+import UnderlineSvg from "../../../public/Svg/UnderlineSvg";
+import BlueMini from "../../../public/Svg/BlueMini";
+import GreenMini from "../../../public/Svg/GreenMini";
 
 const Streams = ({ rotation }) => {
   return (
@@ -75,7 +75,7 @@ const Streams = ({ rotation }) => {
           <div className="  flex justify-center">
             <img
               className="transform lg:translate-y-[-100px] mt-5 lg:mt-0"
-              src="/3d.png"
+              src="/Images/3d.png"
               alt=""
             />
           </div>

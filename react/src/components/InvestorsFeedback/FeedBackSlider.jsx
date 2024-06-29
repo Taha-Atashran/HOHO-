@@ -11,37 +11,37 @@ const VerticalSlider = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
   const [messages, setMessages] = useState([
     {
-      image: "/person.png",
+      image: "/Images/person.png",
       name: "Raven Bardot",
       desc: "In Cold War, you have to fly in the enemy area and destroy their tanksIn Cold War, you have ",
       profit: "135.12 $",
     },
     {
-      image: "/person.png",
+      image: "/Images/person.png",
       name: "Raven Bardot",
       desc: "In Cold War, you have to fly in the enemy area and destroy their tanksIn Cold War, you have ",
       profit: "135.12 $",
     },
     {
-      image: "/person.png",
+      image: "/Images/person.png",
       name: "Raven Bardot",
       desc: "In Cold War, you have to fly in the enemy area and destroy their tanksIn Cold War, you have ",
       profit: "135.12 $",
     },
     {
-      image: "/person.png",
+      image: "/Images/person.png",
       name: "Raven Bardot",
       desc: "In Cold War, you have to fly in the enemy area and destroy their tanksIn Cold War, you have ",
       profit: "135.12 $",
     },
     {
-      image: "/person.png",
+      image: "/Images/person.png",
       name: "Raven Bardot",
       desc: "In Cold War, you have to fly in the enemy area and destroy their tanksIn Cold War, you have ",
       profit: "135.12 $",
     },
     {
-      image: "/person.png",
+      image: "/Images/person.png",
       name: "Raven Bardot",
       desc: "In Cold War, you have to fly in the enemy area and destroy their tanksIn Cold War, you have ",
       profit: "135.12 $",

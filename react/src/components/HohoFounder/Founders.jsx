@@ -1,26 +1,25 @@
 import React, { useEffect, useState } from "react";
-import FoundersBgSvg from "../../public/Svg/FoundersBgSvg";
-import FounderTextSvg from "../../public/Svg/FounderTextSvg";
-import BlueMini from "../../public/Svg/BlueMini";
-import GreenMini from "../../public/Svg/GreenMini";
-import TextSvg from "../../public/Svg/TextSvg";
-import Cammera from "../../public/Svg/Cammera";
-import Book from "../../public/Svg/Book";
+import FoundersBgSvg from "../../../public/Svg/FoundersBgSvg";
+import FounderTextSvg from "../../../public/Svg/FounderTextSvg";
+import BlueMini from "../../../public/Svg/BlueMini";
+import GreenMini from "../../../public/Svg/GreenMini";
+import TextSvg from "../../../public/Svg/TextSvg";
+import Cammera from "../../../public/Svg/Cammera";
+import Book from "../../../public/Svg/Book";
 
 const Founders = ({ rotation }) => {
-
   return (
     <>
       <div className=" w-full  max-w-[1700px] mx-auto -red-200 sm:mt-[100px] md:mt-[200px] lg:mt-[150px] xl:mt-[0] relative overflow-hidden h-[1200px] md:h-[600px] lg:h-[700px]">
         {/* <FoundersBgSvg /> */}
         <img
           className="w-full transform md:scale-y-[1.5]  hidden fouter:block "
-          src="/founderBg.png"
+          src="/Images/founderBg.png"
           alt=""
         />
         <img
           className="w-full transform md:scale-y-[1.5]   fouter:hidden "
-          src="/foundedMobile.png"
+          src="/Images/foundedMobile.png"
           alt=""
         />
 
@@ -38,12 +37,16 @@ const Founders = ({ rotation }) => {
           </div>
           <div className="">
             <div className=" flex flex-col md:flex-row md:justify-between">
-              <img className="w-[221px] h-[231px]" src="/Group 61.png" alt="" />
+              <img
+                className="w-[221px] h-[231px]"
+                src="/Images/Group 61.png"
+                alt=""
+              />
               <div className=" w-full  flex justify-end md:block md:w-auto">
                 <div className=" relative">
                   <img
                     className="w-[240px] h-[231px] mt-7 "
-                    src="/Group 62.png"
+                    src="/Images/Group 62.png"
                     alt=""
                   />
                   <div className=" absolute bottom-[0.5px] left-0 bg-founderColor h-[41px] rounded-2xl w-[187px] border flex items-center justify-center">
@@ -63,13 +66,13 @@ const Founders = ({ rotation }) => {
             <div className=" flex flex-col md:flex-row md:justify-around">
               <img
                 className="w-[261px] h-[231px] mt-7"
-                src="/Group 63.png"
+                src="/Images/Group 63.png"
                 alt=""
               />
               <div className="w-full  flex justify-end md:block md:w-auto">
                 <img
                   className="w-[250px] h-[231px] mt-7"
-                  src="/Group 64.png"
+                  src="/Images/Group 64.png"
                   alt=""
                 />
               </div>

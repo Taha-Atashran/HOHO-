@@ -1,5 +1,5 @@
-import EyeSvg from "../../public/Svg/EyeSvg";
-import VectorSvg from "../../public/Svg/VectorSvg";
+import EyeSvg from "../../../public/Svg/EyeSvg";
+import VectorSvg from "../../../public/Svg/VectorSvg";
 
 const CardSlider = ({ price, title, image, view, date }) => {
   return (

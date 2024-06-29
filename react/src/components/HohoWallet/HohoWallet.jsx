@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
-import HohoWalletSvg from "../../public/Svg/HohoWalletSvg";
-import LineSvg from "../../public/Svg/LineSvg";
-import BlueMini from "../../public/Svg/BlueMini";
-import GreenMini from "../../public/Svg/GreenMini";
+import HohoWalletSvg from "../../../public/Svg/HohoWalletSvg";
+import LineSvg from "../../../public/Svg/LineSvg";
+import BlueMini from "../../../public/Svg/BlueMini";
+import GreenMini from "../../../public/Svg/GreenMini";
 
 const HohoWallet = ({ rotation }) => {
   return (
@@ -23,7 +23,7 @@ const HohoWallet = ({ rotation }) => {
             </div>
             <div className=" lg:flex lg:justify-between">
               <div className=" lg:max-w-[600px] md:w-full">
-                <img src="/hohomini.png" alt="" />
+                <img src="/Images/hohomini.png" alt="" />
                 <h1 className=" text-2xl pt-3">
                   our new cryptocurrency secure wallet app
                 </h1>
@@ -64,41 +64,45 @@ const HohoWallet = ({ rotation }) => {
                 </div>
               </div>
               <div className=" mt-8 w-full flex justify-center transform lg:translate-y-[-100px]">
-                <img className=" object-contain" src="/mobile.png" alt="" />
+                <img
+                  className=" object-contain"
+                  src="/Images/mobile.png"
+                  alt=""
+                />
               </div>
             </div>
           </div>
         </div>
         <img
           className="  w-full transform   lg:static lg:w-[40%]  lg:scale-[1] sm:h-[400px] h-[400px] scale-y-[2] lg:hidden "
-          src="/mobilePink.png"
+          src="/Images/mobilePink.png"
           alt=""
         />
         <img
           className="  w-full transform   lg:static lg:w-[40%]  lg:scale-[1] sm:h-[400px] h-[400px] scale-y-[2] hidden lg:block "
-          src="/secondPink.png"
+          src="/Images/secondPink.png"
           alt=""
         />
 
         <img
           className="w-full transform   lg:static lg:w-[20%] lg:scale-[1.5] sm:h-[400px] h-[400px] scale-y-[2] lg:hidden"
-          src="/mobileGreen.png"
+          src="/Images/mobileGreen.png"
           alt=""
         />
         <img
           className="w-full transform   lg:static lg:w-[20%] lg:scale-[1.5] sm:h-[400px] h-[400px] scale-y-[2] hidden lg:block"
-          src="/secondGreen.png"
+          src="/Images/secondGreen.png"
           alt=""
         />
 
         <img
           className="w-full transform     lg:static lg:w-[40%]  lg:scale-y-[1.5] sm:h-[350px] h-[400px] scale-y-[2] lg:hidden"
-          src="/mobileBlue.png"
+          src="/Images/mobileBlue.png"
           alt=""
         />
         <img
           className="w-full transform     lg:static lg:w-[40%]  lg:scale-y-[1.5] sm:h-[350px] h-[400px] scale-y-[2] hidden lg:block"
-          src="/secondBlue.png"
+          src="/Images/secondBlue.png"
           alt=""
         />
       </div>

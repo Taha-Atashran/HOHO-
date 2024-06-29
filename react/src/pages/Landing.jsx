@@ -1,18 +1,18 @@
-import HeaderDesc from "../components/HeaderDesc";
-import HeaderMobile from "../components/HeaderMobile";
-import MainHeader from "../components/MainHeader";
-import NetWork from "../components/NetWork";
-import OurVision from "../components/OurVision";
-import Our from "../components/Our";
+import HeaderDesc from "../components/Header/HeaderDesc";
+import HeaderMobile from "../components/Header/HeaderMobile";
+import MainHeader from "../components/Header/MainHeader";
+import NetWork from "../components/Network/NetWork";
+import OurVision from "../components/OurVision/OurVision";
+import Our from "../components/OurTraining/Our";
 import { useEffect, useState } from "react";
-import Streams from "../components/Streams";
-import Slider from "../components/Slider";
-import HohoWallet from "../components/HohoWallet";
-import Games from "../components/Games";
-import Testi from "../components/GameSlider";
-import Founders from "../components/Founders";
-import FeedBack from "../components/FeedBack";
-import Footer from "../components/Footer";
+import Streams from "../components/OurRevenue/Streams";
+// import Slider from "../components/Slider";
+import HohoWallet from "../components/HohoWallet/HohoWallet";
+import Games from "../components/OurGames/Games";
+import Testi from "../components/OurGames/GameSlider";
+import Founders from "../components/HohoFounder/Founders";
+import FeedBack from "../components/InvestorsFeedback/FeedBack";
+import Footer from "../components/Footer/Footer";
 
 const Landing = () => {
   const [scrollRotation, setScrollRotation] = useState(0);
@@ -21,7 +21,7 @@ const Landing = () => {
   useEffect(() => {
     const handleScroll = () => {
       const scrollY = window.scrollY;
-      const rotationDegree = scrollY % 360; 
+      const rotationDegree = scrollY % 360;
       setScrollRotation(rotationDegree);
     };
 

@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
-import OurGamesSvg from "../../public/Svg/OurGamesSvg";
+import OurGamesSvg from "../../../public/Svg/OurGamesSvg";
 import GameSlider from "./GameSlider";
-import BlueMini from "../../public/Svg/BlueMini";
-import PinkMini from "../../public/Svg/PinkMini";
+import BlueMini from "../../../public/Svg/BlueMini";
+import PinkMini from "../../../public/Svg/PinkMini";
 
 const Games = ({ rotation }) => {
   return (
@@ -26,34 +26,34 @@ const Games = ({ rotation }) => {
         </div>
         <img
           className="w-full h-[300px] scale-y-[1.3] lg:scale-1 lg:w-[40%] lg:h-auto lg:hidden"
-          src="/mobilePink.png"
+          src="/Images/mobilePink.png"
           alt=""
         />
         <img
           className="w-full h-[300px] scale-y-[1.3] lg:scale-1 lg:w-[40%] lg:h-auto hidden lg:block"
-          src="/secondPink.png"
+          src="/Images/secondPink.png"
           alt=""
         />
 
         <img
           className="w-full h-[300px] transform scale-y-[1.5] lg:scale-1 lg:w-[20%] lg:h-auto lg:hidden"
-          src="/mobileGreen.png"
+          src="/Images/mobileGreen.png"
           alt=""
         />
         <img
           className="w-full h-[300px] transform scale-y-[1.5] lg:scale-1 lg:w-[20%] lg:h-auto hidden lg:block"
-          src="/secondGreen.png"
+          src="/Images/secondGreen.png"
           alt=""
         />
 
         <img
           className="w-full h-[300px]  transform scale-y-[1.2] lg:scale-1 lg:w-[40%] lg:h-auto lg:hidden"
-          src="/mobileBlue.png"
+          src="/Images/mobileBlue.png"
           alt=""
         />
         <img
           className="w-full h-[300px]  transform scale-y-[1.2] lg:scale-1 lg:w-[40%] lg:h-auto hidden lg:block"
-          src="/secondBlue.png"
+          src="/Images/secondBlue.png"
           alt=""
         />
       </div>

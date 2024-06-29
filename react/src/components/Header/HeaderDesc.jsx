@@ -9,7 +9,7 @@ const HeaderDesc = () => {
           <div className="  h-full w-[90%] lg:w-[85%] xl:w-[75%] flex items-center justify-between">
             <img
               className=" h-[37px] w-[37px]"
-              src="/logo-white 1.png"
+              src="/Images/logo-white 1.png"
               alt=""
             />
             <NavLink

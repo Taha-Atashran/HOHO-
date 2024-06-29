@@ -13,7 +13,7 @@ const HeaderMobile = () => {
   return (
     <>
       <div className="h-20 w-full px-10  justify-between items-center flex lg:hidden">
-        <img src="/logo-white 1.png" alt="" />
+        <img src="/Images/logo-white 1.png" alt="" />
         <LuMenu onClick={menuHandler} className=" text-2xl text-slate-800" />
       </div>
       <div className="block lg:hidden">

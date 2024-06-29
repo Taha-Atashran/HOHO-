@@ -11,7 +11,7 @@ const Testi = () => {
   const [data, setData] = useState([
     {
       id: 0,
-      image: "/sliderImg.png",
+      image: "/Images/sliderImg.png",
       bigTitle: "Our Professional Game؛",
       shortTitle: "Cold War",
       desc: "In Cold War, you have to fly in the enemy area and destroy their tanks In Cold War, you have to fly in the enemy area and destroy their tanks",
@@ -19,7 +19,7 @@ const Testi = () => {
     },
     {
       id: 0,
-      image: "/sliderImg.png",
+      image: "/Images/sliderImg.png",
       bigTitle: "Our Professional Game؛",
       shortTitle: "Cold War",
       desc: "In Cold War, you have to fly in the enemy area and destroy their tanks In Cold War, you have to fly in the enemy area and destroy their tanks",
@@ -27,7 +27,7 @@ const Testi = () => {
     },
     {
       id: 0,
-      image: "/sliderImg.png",
+      image: "/Images/sliderImg.png",
       bigTitle: "Our Professional Game؛",
       shortTitle: "Cold War",
       desc: "In Cold War, you have to fly in the enemy area and destroy their tanks In Cold War, you have to fly in the enemy area and destroy their tanks",
@@ -35,7 +35,7 @@ const Testi = () => {
     },
     {
       id: 0,
-      image: "/sliderImg.png",
+      image: "/Images/sliderImg.png",
       bigTitle: "Our Professional Game؛",
       shortTitle: "Cold War",
       desc: "In Cold War, you have to fly in the enemy area and destroy their tanks In Cold War, you have to fly in the enemy area and destroy their tanks",
@@ -43,7 +43,7 @@ const Testi = () => {
     },
     {
       id: 0,
-      image: "/sliderImg.png",
+      image: "/Images/sliderImg.png",
       bigTitle: "Our Professional Game؛",
       shortTitle: "Cold War",
       desc: "In Cold War, you have to fly in the enemy area and destroy their tanks In Cold War, you have to fly in the enemy area and destroy their tanks",

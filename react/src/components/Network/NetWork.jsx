@@ -1,7 +1,7 @@
 import React from "react";
-import NetWorkSvg from "../../public/Svg/NetWorkSvg";
-import BlueMini from "../../public/Svg/BlueMini";
-import YellowSvg from "../../public/Svg/YellowSvg";
+import NetWorkSvg from "../../../public/Svg/NetWorkSvg";
+import BlueMini from "../../../public/Svg/BlueMini";
+import YellowSvg from "../../../public/Svg/YellowSvg";
 
 const NetWork = ({ rotation }) => {
   return (
@@ -19,7 +19,7 @@ const NetWork = ({ rotation }) => {
         <div className=" absolute h-full w-full  mx-auto top-0   xl:px-20 md-px-20 px-5 flex lg:justify-between items-center lg:items-start flex-col md:flex-row  ">
           <img
             className="md:w-[351px] md:h-[336px] w-[320px] h-[307px] transform lg:translate-y-[-30px] translate-y-[60px]  mt-12 md:mt-0"
-            src="/network1.png"
+            src="/Images/network1.png"
             alt=""
           />
           <p className="md:pt-[200px] pt-[60px] w-full  md:w-[60%]  text-start md:text-center">
@@ -29,7 +29,7 @@ const NetWork = ({ rotation }) => {
           </p>
           <img
             className="w-[351px] h-[336px] hidden xl:block transform translate-y-[10px]"
-            src="/network2.png"
+            src="/Images/network2.png"
             alt=""
           />
         </div>

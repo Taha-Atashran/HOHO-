@@ -1,6 +1,6 @@
-import OrangeSvg from "../../public/Svg/OrangeSvg";
-import PinkMini from "../../public/Svg/PinkMini";
-import VisionText from "../../public/Svg/VisionText";
+import OrangeSvg from "../../../public/Svg/OrangeSvg";
+import PinkMini from "../../../public/Svg/PinkMini";
+import VisionText from "../../../public/Svg/VisionText";
 
 const OurVision = ({ rotation }) => {
   return (
@@ -18,7 +18,7 @@ const OurVision = ({ rotation }) => {
           </div>
           <img
             className="lg:w-[222px] lg:h-[299px] w-[140px] h-[175px] transform lg:translate-y-[-50px] translate-y-0"
-            src="vision.png"
+            src="/Images/vision.png"
             alt=""
           />
         </div>

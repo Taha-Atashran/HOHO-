@@ -1,5 +1,5 @@
 import React from "react";
-import UserSvg from "../../public/Svg/UserSvg";
+import UserSvg from "../../../public/Svg/UserSvg";
 
 const GameCardSlider = ({ image, bigTitle, shortTitle, desc, online }) => {
   return (

@@ -1,4 +1,4 @@
-import OurSvg from "../../public/Svg/OurSvg";
+import OurSvg from "../../../public/Svg/OurSvg";
 import Slider from "./Slider";
 
 const Our = () => {
@@ -9,7 +9,9 @@ const Our = () => {
           <OurSvg />
         </div>
       </div>
-      <Slider />
+      <div className="lg:pl-[90px]">
+        <Slider />
+      </div>
       <div className="boorder mt-5 flex justify-center items-center">
         <output className=" cursor-pointer text-pinkColor">See All</output>
       </div>
